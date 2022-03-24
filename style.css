@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Lato:ital@1&family=Roboto+Condensed:ital,wght@1,300&family=Smooch+Sans:wght@200;400&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #030814;
+}
+
+div{
+    padding: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(214, 207, 207, 0.15);
+    border-radius: 10px;
+}
+
+h1{
+    color: #0BD953;
+    font-family: 'staatliches', cursive;
+    font-size: 45px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: #0BD953;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 15px
+}
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+    color: aliceblue;
+    font-family: 'Assistant', sans-serif;
+    padding-left: 60px;
+
+}
+
+  
+tr:nth-child(even) {background-color: #030814;}
+
+
+#nome{
+    background-color: #030814;
+    color:#ffffff;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#peso{
+    background-color: #030814; 
+    color:#ffffff; 
+    margin-top: -15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#altura{
+    background-color: #030814;
+    color:#ffffff;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#tabela{
+    margin-left: -200px;
+}
+
+button{
+    background-color: #0BD953;
+    font-family: 'staatliches';
+    margin-top: 25px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
